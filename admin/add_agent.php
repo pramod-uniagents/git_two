@@ -111,7 +111,7 @@
 								'LastUpdated'=>'now()'
 								);
 				
-				$db->insert('agent',$data);
+				$id = $db->insert('agent',$data);
 				
 				$_SESSION[error]['msg'] = '<font color="green">Agent is successfully added!</font>';
 				
